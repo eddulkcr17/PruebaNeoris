@@ -13,8 +13,18 @@ para la solucion de este reto se tomo en cuenta:
 
 * Se utilizao Eureka para poder monitoriar que los servicios esten desplegado correctamente
 * Se utilizo un servicio para configuracion para que centralizar la configuracion y que no sea dificil el mantenimiento
-* ![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/dac26f39-705e-4e6a-b64e-05dbd5d24daa)
+![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/a6d4e9bc-10ac-4875-be37-401ea1c2d4dd)
 
-* 
 
-* 
+* cada microservicoo apunta al servicio config donde esta alojada la configuracion para que se levante y los puertos que se utilizaran
+![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/c2b5966c-9e0b-40a0-b154-17418693822d)
+
+* los microservicios de Account y de Customer son los que contienen la logica de los endpoints de
+  *  api/clientes
+  *  api/cuentas
+  *  api/movimientos
+* Cada microservicio usa la siguiente estructura de carpetas
+  ![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/1bafacde-fa57-4e22-886c-62ec5b345265)
+
+  
+
