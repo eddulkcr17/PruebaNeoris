@@ -19,9 +19,6 @@ para la solucion de este reto se tomo en cuenta:
 
 ![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/4793438a-49d0-46f5-af07-6eb867451499)
 
-
- 
-
 * Se utilizao Eureka para poder monitoriar que los servicios esten desplegado correctamente
 * Se utilizo un servicio para configuracion para que centralizar la configuracion y que no sea dificil el mantenimiento
 ![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/a6d4e9bc-10ac-4875-be37-401ea1c2d4dd)
@@ -38,6 +35,8 @@ para la solucion de este reto se tomo en cuenta:
 
 ![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/1bafacde-fa57-4e22-886c-62ec5b345265)
 
-los micro servicios se comunican por medio de 
+los micro servicios se comunican por medio de @FeignClient por medio de esta dependencia configure un cliente para que se puedan comunicar entre microservicios y se pueda consultar el cliente que es propietario de la cuenta 
+![image](https://github.com/eddulkcr17/PruebaNeoris/assets/67389025/baebd325-56be-4dc9-86a8-c85dbd79a5a7)
+
   
 
