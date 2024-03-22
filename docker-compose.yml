@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  microservice-config:
+    image: msvc-eureka:latest
+    ports:
+      - "8888:8888"
+
+  microservicio-eureka:
+    image: msvc-eureka:latest
+    ports:
+      - "8082:8082"
+
+  microservicio-gateway:
+    image: msvc-gateway:latest
+    ports:
+      - "8080:8080"
+
+  microservicio-account:
+    image: msvc-account:latest
+    ports:
+      - "8091:8091"
+
+  microservicio-customer:
+    image: msvc-customer:latest
+    ports:
+      - "8090:8090"
